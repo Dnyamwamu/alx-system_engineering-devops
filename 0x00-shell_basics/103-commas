@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a1 | awk '{ printf "%s%s", (NR==1?"":","), $0 } END { print "" }' | sed 's/^\.\.$/,../' | sort -k1,1 -k2n
