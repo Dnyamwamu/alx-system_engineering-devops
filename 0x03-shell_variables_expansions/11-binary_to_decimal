@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Decimal representation of $BINARY is: $(echo "ibase=2; $BINARY" | bc)"
