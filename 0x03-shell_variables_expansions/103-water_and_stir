@@ -1,0 +1,2 @@
+#!/bin/bash
+[ -z "$WATER" ] || [ -z "$STIR" ] || echo "Result in base bestchol: $(echo "obase=$BESTCHOL_BASE;ibase=$WATER_BASE;$WATER+ibase=$STIR_BASE;$STIR"|bc)"
