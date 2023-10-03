@@ -1,0 +1,2 @@
+#!/bin/bash
+[ -z "$DECIMAL" ] || printf "Hexadecimal representation of %d is: %X\n" "$DECIMAL" "$DECIMAL"
